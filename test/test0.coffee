@@ -22,5 +22,5 @@ describe 'Decode', ->
 		it 'should decode         _d -> /           ', ()->
 			assert.equal('/', escape64.decode('_d'))
 
-		it 'should decode         +q -> =           ', ()->
-			assert.equal('=', escape64.decode('+q'))
+		it 'should decode         _q -> =           ', ()->
+			assert.equal('=', escape64.decode('_q'))

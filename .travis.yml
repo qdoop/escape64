@@ -25,7 +25,7 @@ script:
     - echo -ne "\n141024xx\n_testing____________________________________________\n"
     - true
     - false
-    # - npm test
+    - npm test
     - ./node_modules/.bin/mocha --compilers coffee:coffee-script/register --recursive ./test
     
 # after_success or after_failure
