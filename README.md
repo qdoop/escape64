@@ -8,7 +8,7 @@ Both above solutions lack a very usefull property for URLs. __Double Click mouse
 
 ## escape64
 __Escape64__ is a variable length variant of __Base64__ that solves this in a intiutive way.  
-`_` is used as an escape character and defines the following escape sequences
+`_` is used as an escape character and we define the following escape sequences
 
         __      beginging of an Escape64 sequence (optional)
         
@@ -29,7 +29,7 @@ __Escape64__ is a variable length variant of __Base64__ that solves this in a in
     
     console.log(x, y, z);
     console.log(z);
-    console.log(x==z)
+    console.log(x==z);
     
     
 
