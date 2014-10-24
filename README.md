@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.org/qdoop/escape64.svg?branch=master)](https://travis-ci.org/qdoop/escape64)
 #escape64
 
 ## Intro
