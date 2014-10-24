@@ -23,9 +23,9 @@ __Escape64__ is a variable length variant of __Base64__ that solves this in a in
 
 ## Example Implementation
 
-    var x = 'asdf+ff/f+ff/dd+ddAd==';                                           //base64 value
-    var y = x.replace(/[+]/g,'_p').replace(/[\/]/g,'_d').replace(/[=]/g,'_q')   //escape64 value encode
-    var z = y.replace(/_p/g,'+').replace(/_d/g,'/').replace(/_q/g,'=')          //escape64 value decode
+    var x = 'asdf+ff/f+ff/dd+ddAd==';                                         //base64 value
+    var y = x.replace(/[+]/g,'_p').replace(/[\/]/g,'_d').replace(/[=]/g,'_q');//escape64 value encode
+    var z = y.replace(/_p/g,'+').replace(/_d/g,'/').replace(/_q/g,'=');       //escape64 value decode
     
     console.log(x, y, z);
     console.log(z);
