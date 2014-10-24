@@ -35,7 +35,10 @@ __Escape64__ is a variable length variant of __Base64__ that solves this in a in
     
     
 
+## Usage
+        npm install escape64
 
+See `example.js`
 
 
 ## Links
