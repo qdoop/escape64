@@ -1,4 +1,6 @@
 
+#escape64
+
 ## Intro
 Using standard __Base64__ in URLs requires encoding of `+`, `/` and `=` characters into special percent-encoded hexadecimal sequences (`+` becomes `%2B`, `/` becomes `%2F` and `=` becomes `%3D`), which makes the string unnecessarily longer.  
 For this reason, __modified Base64__ for URL variants exist, where the `+` and `/` characters of standard __Base64__ are respectively replaced by `-` and `_`, so that using URL encoders/decoders are no longer necessary and have no impact on the length of the encoded value  
@@ -6,7 +8,7 @@ For this reason, __modified Base64__ for URL variants exist, where the `+` and `
 Both above solutions lack a very usefull property for URLs. __Double Click mouse selection!__  
 ***
 
-## escape64
+## Definition
 __Escape64__ is a variable length variant of __Base64__ that solves this in a intiutive way.  
 `_` is used as an escape character and we define the following escape sequences
 
