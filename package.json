@@ -1,6 +1,6 @@
 {
   "name": "escape64",
-  "version": "0.0.1",
+  "version": "0.0.14102455",
   "description": "Escaped Base64 codec",
   "main": "escape64.js",
   "scripts": {
