@@ -1,0 +1,34 @@
+language: node_js
+node_js:
+#    - "0.12"
+    - "0.10"
+    - "0.8"
+    
+    
+env:
+    - TEST0=test0
+
+before_install:
+    - true
+    
+    
+install:
+    - npm install coffee-script
+    - npm install mocha
+    - npm install
+    
+    
+before_script:
+    - true
+    
+script:
+    - echo -ne "\n141024xx\n_testing____________________________________________\n"
+    - true
+    - false
+    # - npm test
+    - ./node_modules/.bin/mocha --compilers coffee:coffee-script/register --recursive ./test
+    
+# after_success or after_failure
+
+after_script:
+    - true

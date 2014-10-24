@@ -1,0 +1,24 @@
+{
+  "name": "escape64",
+  "version": "0.0.1",
+  "description": "Escaped Base64 codec",
+  "main": "escape64.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qdoop/escape64.git"
+  },
+  "keywords": [
+    "base64",
+    "escape64",
+    "codec"
+  ],
+  "author": "qdoop <qdoop@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qdoop/escape64/issues"
+  },
+  "homepage": "https://github.com/qdoop/escape64"
+}
